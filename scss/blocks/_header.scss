@@ -1,0 +1,33 @@
+.header {
+  position: relative;
+}
+
+.header__box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
+.header__button {
+  border: 1.5px solid #2C2830;
+  background-color: transparent;
+  background-image: url("../../img/icon-burger.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 12px;
+  width: 32px;
+  height: 32px;
+cursor: pointer;
+}
+
+.header--open .nav {
+  display: block;
+}
+
+.header--open .header__button {
+  background-image: url("../../img/icon-cancel.svg");
+  background-size: 14px 13px;
+  
+}
